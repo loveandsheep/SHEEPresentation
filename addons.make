@@ -1,0 +1,5 @@
+ofxAssimpModelLoader
+ofxImGui
+ofxJSON
+ofxOsc
+ofxTrueTypeFontUL2

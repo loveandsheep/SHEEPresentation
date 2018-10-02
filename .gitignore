@@ -1,0 +1,157 @@
+#########################
+# openFrameworks patterns
+#########################
+
+# build files
+openFrameworks.a
+openFrameworksDebug.a
+openFrameworksUniversal.a
+libs/openFrameworksCompiled/lib/*/*
+!libs/openFrameworksCompiled/lib/*/.gitkeep
+
+*.dll
+*.exe
+*.mov
+*.mp4
+*.wav
+*.o
+[Dd]ebug*/
+[Rr]elease*/
+*.mode*
+*.app/
+*.pyc
+.svn/
+*.log
+*.cpp.eep
+*.cpp.elf
+*.cpp.hex
+
+#########################
+# IDE
+#########################
+
+# XCode
+*.pbxuser
+*.perspective
+*.perspectivev3
+*.mode1v3
+*.mode2v3
+# XCode 4
+xcuserdata
+*.xcworkspace
+
+# Code::Blocks
+*.depend
+*.layout
+
+# Visual Studio
+*.sdf
+*.opensdf
+*.suo
+*.pdb
+*.ilk
+*.aps
+ipch/
+
+# Eclipse
+.metadata
+local.properties
+.externalToolBuilders
+
+#########################
+# operating system
+#########################
+
+# Linux
+*~
+# KDE
+.directory
+.AppleDouble
+
+# OSX
+.DS_Store
+*.swp
+*~.nib
+# Thumbnails
+._*
+
+# Windows
+# Windows image file caches
+Thumbs.db
+# Folder config file
+Desktop.ini
+
+# Android
+.csettings
+/libs/openFrameworksCompiled/project/android/paths.make
+
+#########################
+# miscellaneous
+#########################
+
+.mailmap
+*.mapbin
+*.png
+*.xml
+*.ttc
+
+
+# Salone_Apps_setting
+
+*.sln
+*.vcxproj
+*.vcxproj.*
+*.htm
+*.xcconfig
+*.plist
+*.lib
+*.exp
+.vs*
+.idea*
+*.VC.db
+*.VC.VC.opendb
+*.obj
+.dropbox
+
+!cs5_Salone_Apps.sln
+!cs5_Salone_Apps.vcxproj*
+
+cs5_Salone_Apps/cs5_Salone_Apps.xcodeproj/project.pbxproj
+cs5_Salone_Apps/cs5_Salone_Apps.xcodeproj/xcshareddata/xcschemes/cs5_Salone_Apps Debug.xcscheme
+cs5_Salone_Apps/cs5_Salone_Apps.xcodeproj/xcshareddata/xcschemes/cs5_Salone_Apps Release.xcscheme
+cs5_Salone_Apps/bin/data/**/*.jpg
+cs5_Salone_Apps/icon.rc
+
+cs5_Salone_Apps/bin/data/03_light/*
+cs5_Salone_Apps/bin/data/06_frame/*
+cs5_Salone_Apps/bin/data/*
+
+startConfig.json
+
+cs5_Salone_Apps/bin/data/06_frame/Shaders/tex_offset.vert
+cs5_Salone_Apps/bin/data/06_frame/Shaders/depth.vert
+cs5_Salone_Apps/bin/data/06_frame/Shaders/effect.frag
+cs5_Salone_Apps/bin/data/06_frame/Shaders/gpu_noise_lib.glsl
+cs5_Salone_Apps/bin/data/06_frame/Shaders/noise/classicnoise2D.h
+cs5_Salone_Apps/bin/data/06_frame/Shaders/noise/classicnoise3D.h
+cs5_Salone_Apps/bin/data/06_frame/Shaders/noise/classicnoise4D.h
+cs5_Salone_Apps/bin/data/06_frame/Shaders/noise/noise2D.h
+cs5_Salone_Apps/bin/data/06_frame/Shaders/noise/noise4D.h
+cs5_Salone_Apps/bin/data/06_frame/Shaders/noise/noise_common.h
+cs5_Salone_Apps/bin/data/06_frame/Shaders/noise/platform_glm.h
+cs5_Salone_Apps/bin/data/06_frame/Shaders/noise_utils.glsl
+cs5_Salone_Apps/bin/data/06_frame/Shaders/Simplex.h
+cs5_Salone_Apps/bin/data/06_frame/Shaders/tex_offset.frag
+cs5_Salone_Apps/bin/data/06_frame/Shaders/tex_offset.vert
+cs5_Salone_Apps/bin/data/06_frame/Shaders/depth.frag
+cs5_Salone_Apps/bin/data/06_frame/Shaders/depth.vert
+
+LightApp/bin/*
+!LightApp/bin/data
+
+CameraCaptureApp/bin/*
+!CameraCaptureApp/bin/data
+cs5_Salone_Apps/bin/NI2_2.exe - Shortcut.lnk
+
+#Shader
+!cs5_Salone_Apps/bin/data/shadersGL3
